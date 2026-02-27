@@ -1,0 +1,35 @@
+# Python Dependencies for AI Recommendation System
+# Install with: pip install -r requirements.txt
+
+# Core ML Libraries
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# Text Processing
+nltk>=3.6
+textblob>=0.17.1
+
+# Data Serialization
+joblib>=1.1.0
+pickle-mixin>=1.0.2
+
+# Utility Libraries
+python-dotenv>=0.19.0
+tqdm>=4.62.0
+
+# Optional: For advanced features
+# tensorflow>=2.8.0  # Uncomment if using deep learning
+# torch>=1.11.0      # Uncomment if using PyTorch
+# spacy>=3.4.0       # Uncomment for advanced NLP
+# gensim>=4.2.0      # Uncomment for word embeddings
+
+# Development and Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Data Visualization (Optional)
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
